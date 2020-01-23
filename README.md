@@ -51,7 +51,7 @@ Grayscaled and thresholded images of left turn, straight path and right turn
 - The GIF below shows the car in action. 
 - It can be seen that the car is able to make left and right turns with decent precision and it is able to follow the given path.  
 
-![](Videos/P1_GIF.gif
+![](Videos/P1_GIF.gif)
 
 ## Approach 2:  
 ### Convolutional Neural Network (CNN)  
@@ -75,11 +75,11 @@ Schematic of the custom CNN model
 - The video to the right shows the car in action, running on the custom CNN model. 
 - It can be seen that the car is able to make the right turn when it detects the lane curving to the right. Somehow, the car is able to make right turns more accurately compared to left turns (not shown here).
 
-![](Videos/P2_GIF.gif
+![](Videos/P2_GIF.gif)
 
 Another video taken with the car's camera is shown below. Depending on the path ahead, the predicted course of action is displayed below. As we can see here, the predictions are mostly correct but there are a few incorrect predictions too, especially when the car approaches the right edge of lane.
 
-[](Videos/Picamera_video.gif
+![](Videos/Picamera_video.gif)
 
 ### CNN Model Evaluation With Different Parameters
 
